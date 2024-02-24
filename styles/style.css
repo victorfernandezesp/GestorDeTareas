@@ -1,0 +1,433 @@
+/* Diseño en moviles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+header {
+    background-color: rgb(40, 40, 40);
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.logovictor {
+    border-radius: 10%;
+    width: 12%;
+}
+
+.opciones_filtros {
+    background-color: rgb(53, 53, 53);
+    color: #ffffff;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.opciones_filtros h3 {
+    border: 4px solid #444444;
+    border-style: groove;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.filtrosh3 {
+    font-size: 2.75vw;
+
+}
+
+.mostrar_todo {
+    text-align: center;
+    font-size: 2.75vw;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-style: groove;
+    background-color: #444444;
+    padding: 2%;
+    box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
+    transition: box-shadow 0.8s ease;
+    text-decoration: none;
+
+}
+
+.mostrar_todo:hover {
+    box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.4);
+    transform: translate(2px, -2px);
+    color: white;
+}
+
+.filtro {
+    background-color: rgb(66, 66, 66);
+    padding: 2vw;
+    height: 1%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.filtro a {
+    text-decoration: none;
+    background-color: rgb(78, 78, 78);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1px;
+    padding: 8px;
+    border: 4px solid #000000;
+    border-style: groove;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.filtro a:hover {
+    box-shadow: 8px 8px 15px rgb(255, 249, 138);
+    color: rgb(255, 246, 81);
+    transform: translate(2px, -2px);
+
+}
+
+
+.tareas_opciones {
+    background-color: rgb(53, 53, 53);
+    color: #ffffff;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.tareas_opciones h3 {
+    border: 4px solid #444444;
+    border-style: groove;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.tareas_pendientes {
+    margin-top: 3%;
+    font-size: 2.75vw;
+
+}
+
+.anadirtarea {
+    text-align: center;
+    font-size: 2.75vw;
+    font-weight: bold;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-style: groove;
+    background-color: #444444;
+    padding: 2%;
+    box-shadow: 5px 5px 10px rgb(233, 255, 94);
+    transition: box-shadow 0.8s ease;
+    border-radius: 15px;
+
+}
+
+.anadirtarea:hover {
+    box-shadow: 8px 8px 15px rgba(233, 255, 94, 0.4);
+    transform: translate(2px, -2px);
+    color: white;
+}
+
+main {
+    padding: 3%;
+    background-color: rgb(66, 66, 66);
+
+}
+
+.asignatura {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5%;
+}
+
+.tareas-seccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 5%;
+}
+
+.cajita_opciones_tarjeta {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+}
+
+.tareas-seccion h3 {
+    font-size: 3vw;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5%;
+}
+
+.tarea {
+    text-align: justify;
+    font-size: 2.2vw;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-style: groove;
+    background-color: rgb(244, 242, 90);
+    padding: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease;
+}
+
+.tarea:hover {
+    box-shadow: 8px 8px 15px rgba(255, 187, 0, 0.4);
+    transform: translate(2px, -2px);
+}
+
+.tareasDWES .tarea h3 {
+    color: #000000;
+    background-color: rgba(144, 238, 144, 0.7);
+    font-size: 2.35vw;
+    padding: 0.65vw;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.tareasDWEC .tarea h3 {
+    color: #000000;
+    background-color: rgba(173, 216, 230, 0.7);
+    font-size: 2.35vw;
+    padding: 0.35vw;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.tareasDIWEB .tarea h3 {
+    color: #000000;
+    background-color: rgba(255, 192, 203, 0.7);
+    font-size: 2.35vw;
+    font-weight: bold;
+    padding: 0.35vw;
+    border-radius: 10px;
+}
+
+.tareasHLC .tarea h3 {
+    color: #000000;
+    background-color: rgba(0, 0, 139, 0.3);
+    font-size: 2.35vw;
+    font-weight: bold;
+    padding: 0.35vw;
+    border-radius: 10px;
+}
+
+.tareasEMP .tarea h3 {
+    color: #000000;
+    background-color: rgba(255, 165, 0, 0.5);
+    font-size: 2.35vw;
+    font-weight: bold;
+    padding: 0.35vw;
+    border-radius: 10px;
+}
+
+.tareasDAWEB .tarea h3 {
+    color: #000000;
+    background-color: rgba(216, 191, 216, 0.6);
+    font-size: 2.35vw;
+    font-weight: bold;
+    padding: 0.35vw;
+    border-radius: 10px;
+}
+
+
+.cubo {
+    width: 3vw;
+    filter: contrast(0.5);
+}
+
+.ajustes {
+    width: 3vw;
+    filter: contrast(0.7);
+}
+
+
+footer {
+    background-color: rgb(66, 66, 66);
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+
+footer a img {
+    display: inline-block;
+    width: 4vw;
+
+}
+
+.botonesopciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 60%;
+    padding: 5%;
+}
+
+
+
+
+
+
+
+
+/* Diseño para ordenadores */
+@media screen and (min-width: 1200px) {
+    header {
+        font-size: 1vw;
+    }
+
+    .logovictor {
+        border-radius: 10%;
+        width: 5%;
+    }
+
+    .opciones_filtros {
+        padding: 1%;
+        grid-gap: 80%;
+    }
+
+    .opciones_filtros h3 {
+        font-size: 1vw;
+        margin-left: 20%;
+
+    }
+
+    .mostrar_todo {
+        font-size: 1vw;
+        margin-right: 20%;
+
+
+    }
+
+    .mostrar_todo:hover {
+        box-shadow: 8px 8px 15px rgba(255, 255, 255, 0.4);
+        transform: translate(2px, -2px);
+        color: white;
+    }
+
+    .filtro {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .tareas_opciones {
+        grid-gap: 2%;
+        padding: 1%;
+    }
+
+    .tareas_pendientes {
+        font-size: 1.5vw;
+        margin-left: 50%;
+    }
+
+    .anadirtarea {
+        font-size: 1vw;
+        margin-right: 50%;
+    }
+
+    main {
+        padding: 1%;
+    }
+
+    .asignatura {
+        font-size: 2vw;
+    }
+
+    .tareas-seccion {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        margin: 0 auto;
+        width: 90%;
+        padding: 5%;
+    }
+
+    .cajita_opciones_tarjeta {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .tarea {
+        font-size: 1vw;
+    }
+
+    .tareasDWES .tarea h3 {
+        font-size: 1.35vw;
+
+    }
+
+    .tareasDWEC .tarea h3 {
+        font-size: 1.35vw;
+    }
+
+    .tareasDIWEB .tarea h3 {
+        font-size: 1.35vw;
+    }
+
+    .tareasHLC .tarea h3 {
+        font-size: 1.35vw;
+    }
+
+    .tareasEMP .tarea h3 {
+        font-size: 1.35vw;
+    }
+
+    .tareasDAWEB .tarea h3 {
+        font-size: 1.35vw;
+    }
+
+
+    .cubo {
+        width: 2vw;
+        filter: contrast(0.5);
+    }
+
+    .ajustes {
+        width: 2vw;
+        filter: contrast(0.7);
+    }
+
+    
+    footer {
+        font-size: 0.75vw;
+    }
+    
+    
+    footer a img {
+        width: 2vw;
+    
+    }
+    
+    .botonesopciones {
+        width: 30%;
+    }
+}

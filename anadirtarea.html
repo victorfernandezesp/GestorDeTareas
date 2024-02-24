@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maxium-scale=1.0">
+    <meta name="author" content="Victor Fernandez España">
+    <title>Práctica 11 Víctor Fernández España</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <script src="js/anadirtarea.js"></script>
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="img/logo_victor.png" width="80px" alt="Foto de un Logo" class="logovictor">
+        <h1>Gestor de Tareas</h1>
+    </header>
+
+    <main>
+        <div class="opciones_filtros">
+            <h3 class="filtrosh3">AñadirTarea</h3>
+            <a href="index.html" class="mostrar_todo">Inicio</a>
+        </div>
+        <br>
+        <div class="formulario">
+            <form action="index.html">
+
+                <label for="titulo">Titulo</label>
+                <div class="input_titulo">
+                    <input type="text" name="titulo" id="titulo" placeholder="Titulo de la tarea" class="input valido" required>
+                </div>
+
+                <label for="asignatura">Asignatura</label>
+                <div class="input_asignatura">
+                    <select name="asignatura" id="asignatura" class="input valido" required>
+                        <option value="DWES">DWES</option>
+                        <option value="DWEC">DWEC</option>
+                        <option value="DIWEB">DIWEB</option>
+                        <option value="EMP">EMP</option>
+                        <option value="HLC">HLC</option>
+                        <option value="DAWEB">DAWEB</option>
+                    </select>
+                </div>
+
+                <label for="fecha">Fecha</label>
+                <div class="input_fecha">
+                    <input type="date" name="fecha" id="fecha" class="input valido" required>
+                </div>
+
+                <label for="descripcion">Descripcion</label>
+                <div class="input_descripcion">
+                    <textarea name="descripcion" id="descripcion" cols="35" rows="10"
+                        placeholder="Descripcion de la tarea" class="input valido" required></textarea>
+                </div>
+
+                <input type="submit" value="Añadir Tarea" class="boton_anadir">
+            </form>
+
+        </div>
+    </main>
+
+    <footer id="footer">
+        <p> Víctor Fernández España </p>
+        <a href="https://www.instagram.com/vicfe_fotografia/" target="_blank">
+            <img src="img/logo_instagram.svg" alt="Link Instagram">
+        </a>
+
+        <a href="https://twitter.com/victor_17fesp" target="_blank">
+            <img src="img/logo_twitter.svg" alt="Link Twitter/X">
+        </a>
+
+        <p>&copy; 2023 Víctor Fernández España. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

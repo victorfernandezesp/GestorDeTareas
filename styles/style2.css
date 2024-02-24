@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.formulario {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    font-size: 1.15em;
+    background-color: rgb(244, 242, 90);
+    box-shadow: 5px 5px 10px rgb(175, 124, 42);
+    transition: box-shadow 0.3s ease;
+    text-align: justify;
+}
+.input{
+    width: 80%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    border: 2px dotted rgb(175, 124, 42);
+    font-size: 0.65em;
+    text-align: center;
+
+}
+.input_titulo {
+    width: 60%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    border: 2px dotted rgb(175, 124, 42);
+    font-size: 1.15em;
+}
+
+.input_asignatura {
+    width: 60%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    border: 2px dotted rgb(175, 124, 42);
+    font-size: 1.15em;
+}
+
+.input_fecha {
+    width: 60%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    border: 2px dotted rgb(175, 124, 42);
+    font-size: 1.15em;
+}
+
+.input_descripcion {
+    width: 60%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+    border: 2px dotted rgb(175, 124, 42);
+    font-size: 1.15em;
+}
+
+.boton_anadir {
+    padding: 1em;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    border-radius: 10px;
+    font-size: 2vw;
+    cursor: pointer;
+    margin-bottom: 1em;
+    width: 30%;
+}
+
+.valido:invalid {
+    border: 2.5px double #b92326;
+}
+
+
+.valido {
+    border: 2px solid rgb(71, 145, 40);
+}
+
+@media screen and (min-width: 1200px) {
+    .formulario {
+        width: 1000px;
+        font-size: 1.15em;
+    }
+
+    .input_titulo {
+        width: 90%;
+        font-size: 1.15em;
+    }
+
+    .input_asignatura {
+        width: 90%;
+        font-size: 1.15em;
+    }
+
+    .input_fecha {
+        width: 90%;
+        font-size: 1.15em;
+    }
+
+    .input_descripcion {
+        width: 90%;
+        font-size: 1.15em;
+    }
+
+    .boton_anadir {
+        font-size: 1em;
+    }
+
+}
