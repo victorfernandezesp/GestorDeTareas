@@ -12,8 +12,8 @@
     border: 1px solid #ccc;
     border-radius: 1em;
     font-size: 1.15em;
-    background-color: rgb(244, 242, 90);
-    box-shadow: 5px 5px 10px rgb(175, 124, 42);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.759);
     transition: box-shadow 0.3s ease;
     text-align: justify;
 }
@@ -22,7 +22,7 @@
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 2px;
-    border: 2px dotted rgb(175, 124, 42);
+    border: 2px dotted rgba(255, 255, 255, 0.759);
     font-size: 0.65em;
     text-align: center;
 
@@ -32,7 +32,7 @@
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 2px;
-    border: 2px dotted rgb(175, 124, 42);
+    border: 2px dotted rgba(255, 255, 255, 0.759);
     font-size: 1.15em;
 }
 
@@ -41,7 +41,7 @@
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 2px;
-    border: 2px dotted rgb(175, 124, 42);
+    border: 2px dotted rgba(255, 255, 255, 0.759);
     font-size: 1.15em;
 }
 
@@ -50,7 +50,7 @@
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 2px;
-    border: 2px dotted rgb(175, 124, 42);
+    border: 2px dotted rgba(255, 255, 255, 0.759);
     font-size: 1.15em;
 }
 
@@ -59,14 +59,14 @@
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 2px;
-    border: 2px dotted rgb(175, 124, 42);
+    border: 2px dotted rgba(255, 255, 255, 0.759);
     font-size: 1.15em;
 }
 
 .boton_anadir {
     padding: 1em;
     color: #fff;
-    background-color: #000;
+    background-color: rgba(88, 88, 88, 0.743);
     border: 0;
     border-radius: 10px;
     font-size: 2vw;

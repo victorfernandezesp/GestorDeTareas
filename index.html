@@ -18,46 +18,49 @@
         <img src="img/logo_victor.png" width="80px" alt="Foto de un Logo" class="logovictor">
         <h1>Gestor de Tareas</h1>
     </header>
-    
+
     <div class="opciones_filtros">
         <h3 class="filtrosh3">Filtros</h3>
         <button id="mostrar_todo" class="mostrar_todo">Borrar Filtros</button>
     </div>
 
     <div class="filtro">
-        <label><a href="#tareas_pendientes" id="clickDWES">DWES </a></label>
-        <label><a href="#tareas_pendientes" id="clickDWEC">DWEC </a></label>
-        <label><a href="#tareas_pendientes" id="clickDIW">DIW </a></label>
-        <label><a href="#tareas_pendientes" id="clickHLC">HLC </a></label>
-        <label><a href="#tareas_pendientes" id="clickEMP">EMP </a></label>
-        <label><a href="#tareas_pendientes" id="clickDAWEB">DAWEB </a></label>
+        <label><a href="#" id="clickDWES">DWES </a></label>
+        <label><a href="#" id="clickDWEC">DWEC </a></label>
+        <label><a href="#" id="clickDIW">DIW </a></label>
+        <label><a href="#" id="clickHLC">HLC </a></label>
+        <label><a href="#" id="clickEMP">EMP </a></label>
+        <label><a href="#" id="clickDAWEB">DAWEB </a></label>
     </div>
 
     <main>
         <div class="tareas_opciones">
             <h2 id="tareas_pendientes" class="tareas_pendientes">Tareas</h2>
-            <button id="anadirtarea" class="anadirtarea"> Añadir Tarea</button>
+            <button id="anadirtarea" class="mostrar_todo"> Añadir Tarea</button>
         </div>
 
-        <h3 id="asignaturaDWES" class="asignatura">DWES</h3>
-        
+
+        <span id="asignaturaDWES" class="asignatura"></span>
         <section id="tareasDWES" class="tareas-seccion tareasDWES">
 
             <article class="tarea">
                 <h3>Actividad Evaluable 5</h3>
-                <h3>DWES 23/01/2024</h3>
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">23/01/2024</span>
+                </div>
                 <br />
                 <p>Actividad que utiliza el MVC con una pizzeria.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span>Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -65,19 +68,22 @@
 
             <article class="tarea">
                 <h3>Actividad Evaluable 6</h3>
-                <h3>DWES 25/01/2024</h3>
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">25/01/2024</span>
+                </div>
                 <br />
                 <p>Actividad que utiliza el MVC con un Portfolio y Base de Datos.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -85,19 +91,21 @@
 
             <article class="tarea">
                 <h3>Actividad De Clase 1</h3>
-                <h3>DWES 12/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">12/01/2024</span>
+                </div> <br />
                 <p>Actividad que utiliza el SOAP con Continentes.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -105,19 +113,21 @@
 
             <article class="tarea">
                 <h3>Actividad De Clase 2</h3>
-                <h3>DWES 12/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">12/01/2024</span>
+                </div>                <br />
                 <p>Actividad que utiliza el SOAP con Paises.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -125,19 +135,21 @@
 
             <article class="tarea">
                 <h3>Actividad De Clase 3</h3>
-                <h3>DWES 13/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">13/01/2024</span>
+                </div>                <br />
                 <p>Actividad que utiliza el SOAP con Materias de Clase.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -145,19 +157,21 @@
 
             <article class="tarea">
                 <h3>Actividad De Clase 4</h3>
-                <h3>DWES 13/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwes">DWES </span>
+                    <span class="fecha">13/01/2024</span>
+                </div>                <br />
                 <p>Actividad que utiliza el SOAP con el Horario de clase.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -165,24 +179,27 @@
 
         </section>
 
-        <h3 id="asignaturaDWEC" class="asignatura">DWEC</h3>
+        <span id="asignaturaDWEC" class="asignatura"></span>
         <section id="tareasDWEC" class="tareas-seccion tareasDWEC">
 
             <article class="tarea">
                 <h3>Actividad De Calculadora</h3>
-                <h3>DAWEC 15/01/2024</h3>
+                <div class="caractarea">
+                    <span class="caracdwec">DWEC </span>
+                    <span class="fecha">15/01/2024</span>
+                </div>   
                 <br />
                 <p>Actividad donde creas la Calculadora funcional por parejas.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -190,19 +207,21 @@
 
             <article class="tarea">
                 <h3>Actividad 4.2</h3>
-                <h3>DAWEC 15/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwec">DWEC </span>
+                    <span class="fecha">15/01/2024</span>
+                </div>                 <br />
                 <p>Actividad donde se deben realizar las 7 primeros retos de la web.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -210,19 +229,21 @@
 
             <article class="tarea">
                 <h3>Actividad 4.3</h3>
-                <h3>DAWEC 15/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdwec">DWEC </span>
+                    <span class="fecha">15/01/2024</span>
+                </div>                 <br />
                 <p>Actividad donde se deben realizar las 7 siguientes retos de la web.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -230,24 +251,26 @@
 
 
         </section>
-        <h3 id="asignaturaDIWEB" class="asignatura">DIWEB</h3>
+        <span id="asignaturaDIWEB" class="asignatura"></span>
         <section id="tareasDIWEB" class="tareas-seccion tareasDIWEB">
 
             <article class="tarea">
                 <h3>PR 11</h3>
-                <h3>DIWEB 12/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdiweb">DIWEB </span>
+                    <span class="fecha">12/01/2024</span>
+                </div>                 <br />
                 <p>Practica donde se realiza un gestor de Tareas.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -255,19 +278,21 @@
 
             <article class="tarea">
                 <h3>PR 12</h3>
-                <h3>DIWEB 19/01/2024</h3>
-                <br />
+                <div class="caractarea">
+                    <span class="caracdiweb">DIWEB </span>
+                    <span class="fecha">19/01/2024</span>
+                </div>                <br />
                 <p>Practica donde se realiza una página para el Youtube IlloJuan.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -275,24 +300,27 @@
 
         </section>
 
-        <h3 id="asignaturaHLC" class="asignatura">HLC</h3>
+        <span id="asignaturaHLC" class="asignatura"></span>
 
         <section id="tareasHLC" class="tareas-seccion tareasHLC">
             <article class="tarea">
                 <h3>Actividad 2.3</h3>
-                <h3>HLC REACT 11/01/2024</h3>
+                <div class="caractarea">
+                    <span class="carachlc">HLC REACT </span>
+                    <span class="fecha">11/01/2024</span>
+                </div>
                 <br />
                 <p>Actividad donde se completan retos de la web.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -300,19 +328,22 @@
 
             <article class="tarea">
                 <h3>Practica 10</h3>
-                <h3>HLC Wordpress 11/01/2024</h3>
+                <div class="caractarea">
+                    <span class="carachlc">HLC Wordpress </span>
+                    <span class="fecha">11/01/2024</span>
+                </div>
                 <br />
                 <p>Practica donde se instala woocomerce.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -320,24 +351,27 @@
         </section>
 
 
-        <h3 id="asignaturaEMP" class="asignatura">EMP</h3>
+        <span id="asignaturaEMP" class="asignatura"></span>
         <section id="tareasEMP" class="tareas-seccion tareasEMP">
 
             <article class="tarea">
                 <h3>Actividad De Tabla</h3>
-                <h3>EMP 10/01/2024</h3>
+                <div class="caractarea">
+                    <span class="caracemp">EMP </span>
+                    <span class="fecha">10/01/2024</span>
+                </div>
                 <br />
                 <p>Actividad donde rellenas las tablas de tipos de empresarios.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>
@@ -345,25 +379,28 @@
 
         </section>
 
-        <h3 id="asignaturaDAWEB" class="asignatura">DWEB</h3>
+        <span id="asignaturaDAWEB" class="asignatura"></span>
 
         <section id="tareasDAWEB" class="tareas-seccion tareasDAWEB">
 
             <article class="tarea">
                 <h3>Actividad De Nginx</h3>
-                <h3>DWEB 12/01/2024</h3>
+                <div class="caractarea">
+                    <span class="caracdaweb">DWEB </span>
+                    <span class="fecha">12/01/2024</span>
+                </div>
                 <br />
                 <p>Actividad donde se instala y configura Nginx.</p>
                 <br />
                 <div class="cajita_opciones_tarjeta">
-                    <span for="realizada">Realizada:
+                    <span>Check
                         <input type="checkbox" name="realizada" id="realizada">
                     </span>
-                    <span for="Cubo">Borrar:
+                    <span for="Cubo">
                         <img src="img/dustbin_ui_button_eliminate_rubbish_delete_bin_can_trash_icon_210821.svg" alt=""
                             class="cubo">
                     </span>
-                    <span for="editar">Editar:
+                    <span for="editar">
                         <img src="img/note-task-comment-message-edit-write_108613.svg" alt="" class="ajustes">
                     </span>
                 </div>

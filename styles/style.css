@@ -32,15 +32,11 @@ header {
 }
 
 .opciones_filtros h3 {
-    border: 4px solid #444444;
-    border-style: groove;
-    border-radius: 5px;
     text-align: center;
 }
 
 .filtrosh3 {
     font-size: 2.75vw;
-
 }
 
 .mostrar_todo {
@@ -50,6 +46,7 @@ header {
     color: #ffffff;
     border: 1px solid #000000;
     border-style: groove;
+    border-radius: 3px;
     background-color: #444444;
     padding: 2%;
     box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.6);
@@ -94,8 +91,8 @@ header {
 }
 
 .filtro a:hover {
-    box-shadow: 8px 8px 15px rgb(255, 249, 138);
-    color: rgb(255, 246, 81);
+    box-shadow: 8px 8px 15px rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
     transform: translate(2px, -2px);
 
 }
@@ -121,28 +118,7 @@ header {
 .tareas_pendientes {
     margin-top: 3%;
     font-size: 2.75vw;
-
-}
-
-.anadirtarea {
     text-align: center;
-    font-size: 2.75vw;
-    font-weight: bold;
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    border-style: groove;
-    background-color: #444444;
-    padding: 2%;
-    box-shadow: 5px 5px 10px rgb(233, 255, 94);
-    transition: box-shadow 0.8s ease;
-    border-radius: 15px;
-
-}
-
-.anadirtarea:hover {
-    box-shadow: 8px 8px 15px rgba(233, 255, 94, 0.4);
-    transform: translate(2px, -2px);
-    color: white;
 }
 
 main {
@@ -152,10 +128,6 @@ main {
 }
 
 .asignatura {
-    text-align: center;
-    font-size: 6vw;
-    font-weight: bold;
-    color: #ffffff;
     margin-top: 5%;
 }
 
@@ -169,94 +141,181 @@ main {
 }
 
 .cajita_opciones_tarjeta {
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cajita_opciones_tarjeta input[type="checkbox"] {
+    margin-right: 5px;
+}
+.tareas-seccion h3 {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+    padding: 5%;
 }
 
-.tareas-seccion h3 {
-    font-size: 3vw;
+.fecha {
+    font-size: 1.75vw;
     font-weight: bold;
-    color: #ffffff;
-    padding: 5%;
+    color: #000000;
+    text-align: right;
 }
 
 .tarea {
     text-align: justify;
-    font-size: 2.2vw;
+    font-size: 1.65vw;
     font-weight: bold;
     border: 1px solid #000000;
     border-style: groove;
-    background-color: rgb(244, 242, 90);
+    background-color: rgb(255, 255, 255);
     padding: 2%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
     transition: box-shadow 0.3s ease;
 }
 
 .tarea:hover {
-    box-shadow: 8px 8px 15px rgba(255, 187, 0, 0.4);
+    box-shadow: 8px 8px 15px rgba(235, 235, 235, 0.4);
     transform: translate(2px, -2px);
+}
+
+.caractarea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tareasDWES .tarea {
+    border: 2px solid rgba(144, 238, 144, 0.7);
+    border-radius: 10px;
 }
 
 .tareasDWES .tarea h3 {
     color: #000000;
-    background-color: rgba(144, 238, 144, 0.7);
+    font-size: 2.15vw;
+    padding: 1vw;
+    font-weight: bold;
+
+}
+
+.caracdwes {
+    color: #ffffff;
+    background-color: rgb(144, 238, 144);
     font-size: 2.35vw;
     padding: 0.65vw;
     font-weight: bold;
     border-radius: 10px;
+}
 
+.tareasDWEC .tarea {
+    border: 2px solid rgba(173, 216, 230, 0.7);
+    border-radius: 10px;
+}
+
+.caracdwec {
+    color: #ffffff;
+    background-color: rgb(173, 216, 230);
+    font-size: 2.35vw;
+    padding: 0.65vw;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 .tareasDWEC .tarea h3 {
     color: #000000;
-    background-color: rgba(173, 216, 230, 0.7);
+    font-size: 2.15vw;
+    padding: 1vw;
+    font-weight: bold;
+}
+
+.tareasDIWEB .tarea {
+    border: 2px solid rgba(255, 192, 203, 0.7);
+    border-radius: 10px;
+}
+
+.caracdiweb {
+    color: #ffffff;
+    background-color: rgb(255, 192, 203);
     font-size: 2.35vw;
-    padding: 0.35vw;
+    padding: 0.65vw;
     font-weight: bold;
     border-radius: 10px;
 }
 
 .tareasDIWEB .tarea h3 {
     color: #000000;
-    background-color: rgba(255, 192, 203, 0.7);
-    font-size: 2.35vw;
+    font-size: 2.15vw;
+    padding: 1vw;
     font-weight: bold;
-    padding: 0.35vw;
+}
+
+.tareasHLC .tarea {
+    border: 2px solid rgba(0, 0, 139, 0.3);
+    border-radius: 10px;
+}
+
+.carachlc {
+    color: #ffffff;
+    background-color: rgba(0, 0, 139, 0.38);
+    font-size: 2.35vw;
+    padding: 0.65vw;
+    font-weight: bold;
     border-radius: 10px;
 }
 
 .tareasHLC .tarea h3 {
     color: #000000;
-    background-color: rgba(0, 0, 139, 0.3);
-    font-size: 2.35vw;
+    font-size: 2.15vw;
+    padding: 1vw;
     font-weight: bold;
-    padding: 0.35vw;
+}
+
+.tareasEMP .tarea {
+    border: 2px solid rgba(255, 165, 0, 0.5);
+    border-radius: 10px;
+}
+
+.caracemp {
+    color: #ffffff;
+    background-color: rgba(255, 166, 0, 0.65);
+    font-size: 2.35vw;
+    padding: 0.65vw;
+    font-weight: bold;
     border-radius: 10px;
 }
 
 .tareasEMP .tarea h3 {
     color: #000000;
-    background-color: rgba(255, 165, 0, 0.5);
-    font-size: 2.35vw;
+    font-size: 2.15vw;
+    padding: 1vw;
     font-weight: bold;
-    padding: 0.35vw;
+}
+
+.tareasDAWEB .tarea {
+    border: 2px solid rgba(216, 191, 216, 0.6);
+    border-radius: 10px;
+}
+
+.caracdaweb {
+    color: #ffffff;
+    background-color: rgb(216, 191, 216);
+    font-size: 2.35vw;
+    padding: 0.65vw;
+    font-weight: bold;
     border-radius: 10px;
 }
 
 .tareasDAWEB .tarea h3 {
     color: #000000;
-    background-color: rgba(216, 191, 216, 0.6);
-    font-size: 2.35vw;
+    font-size: 2.15vw;
+    padding: 1vw;
     font-weight: bold;
-    padding: 0.35vw;
-    border-radius: 10px;
 }
 
 
 .cubo {
     width: 3vw;
     filter: contrast(0.5);
+    align-items: end;
 }
 
 .ajustes {
@@ -356,9 +415,6 @@ footer a img {
         padding: 1%;
     }
 
-    .asignatura {
-        font-size: 2vw;
-    }
 
     .tareas-seccion {
         display: grid;
@@ -377,34 +433,61 @@ footer a img {
     }
 
     .tarea {
-        font-size: 1vw;
+        font-size: 0.85vw;
     }
 
     .tareasDWES .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
 
     }
 
     .tareasDWEC .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 
     .tareasDIWEB .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 
     .tareasHLC .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 
     .tareasEMP .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 
     .tareasDAWEB .tarea h3 {
-        font-size: 1.35vw;
+        font-size: 1vw;
     }
 
+    .caracdwes {
+        font-size: 1.2vw;
+    }
+
+    .caracdwec {
+        font-size: 1.2vw;
+    }
+
+    .caracdiweb {
+        font-size: 1.2vw;
+    }
+
+    .carachlc {
+        font-size: 1.2vw;
+    }
+
+    .caracemp {
+        font-size: 1.2vw;
+    }
+
+    .caracdaweb {
+        font-size: 1.2vw;
+    }
+
+    .fecha {
+        font-size: 1vw;
+    }
 
     .cubo {
         width: 2vw;
@@ -416,17 +499,17 @@ footer a img {
         filter: contrast(0.7);
     }
 
-    
+
     footer {
         font-size: 0.75vw;
     }
-    
-    
+
+
     footer a img {
         width: 2vw;
-    
+
     }
-    
+
     .botonesopciones {
         width: 30%;
     }
